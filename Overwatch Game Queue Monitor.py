@@ -106,11 +106,6 @@ def gameQueue():
             send()
         raise SystemExit(0)
 
-def dontKick():
-    pass
-    #would like to add func to move every 5 seconds so the game doesn't kick you from the 
-    # match for inactivity
-
 if __name__ == "__main__":
     initGmail()
     print('Searching for game...')
