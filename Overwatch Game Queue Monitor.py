@@ -18,7 +18,7 @@ selectButtonX = 965
 selectButtonY = 1009
 
 server = smtplib.SMTP("smtp.gmail.com:587")
-auth = ('overwatchgamestarting@gmail.com', 'Alohabobs11')
+auth = ('GenericEmailAddress@gmail.com', 'GenericPassword')
 
 #asking user to input which Overwatch character they would like the program to instant lock
 hero = input('Please select which hero you would like to be: ')
